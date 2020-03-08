@@ -1,0 +1,33 @@
+{
+  "name": "express_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayra-RR/Express_TypeScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mayra-RR/Express_TypeScript/issues"
+  },
+  "homepage": "https://github.com/Mayra-RR/Express_TypeScript#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/hapi__joi": "^16.0.12",
+    "@types/jsonwebtoken": "^8.3.8",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
